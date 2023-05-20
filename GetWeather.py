@@ -11,9 +11,9 @@ data_formatada = data_atual.strftime("%d/%m/%Y")
 
 conexao = mysql.connector.connect(
     host = 'localhost',
-    user = 'pjota',
-    password = 'papaleguas1',
-    database = 'weather2'
+    user = 'user',
+    password = 'password',
+    database = 'database'
 )
 
 
